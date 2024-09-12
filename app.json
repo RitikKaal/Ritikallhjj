@@ -1,5 +1,5 @@
 {
-      "name": "Fallen Robot",
+      "name": "Group Robot",
       "description": "Telegram Group Management Bot.",
       "logo": "https://te.legra.ph/file/72e135da30a1a349f2844.jpg",
       "keywords": [
@@ -7,7 +7,7 @@
          "modular",
          "group",
          "manager",
-         "Fallen"
+         "Group"
       ],   
    "repository": "https://github.com/AnonymousX1025/GroupService",
    "stack": "heroku-22",
@@ -69,7 +69,7 @@
          "value": ""
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Group Support than consider you made an enemy.",
          "required": true,
          "value": "DevilsHeavenMF"
       },

@@ -7,7 +7,7 @@ from telegraph import Telegraph, exceptions, upload_file
 from GroupService import telethn as tbot
 from GroupService.events import register
 
-Anonymous = "Fallen"
+Anonymous = "Group"
 
 TMP_DOWNLOAD_DIRECTORY = "./"
 telegraph = Telegraph()

@@ -29,7 +29,7 @@ async def repo(_, message: Message):
                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
                     InlineKeyboardButton(
                         "sᴏᴜʀᴄᴇ",
-                        url="https://github.com/RitikrajX1025/GroupService",
+                        url="https://github.com/TeamEspro/GroupServiceBot",
                     ),
                 ]
             ]

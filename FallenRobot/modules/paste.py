@@ -8,9 +8,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton
 
-from FallenRobot import pbot as app
-from FallenRobot.utils.errors import capture_err
-from FallenRobot.utils.pastebin import paste
+from GroupService import pbot as app
+from GroupService.utils.errors import capture_err
+from GroupService.utils.pastebin import paste
 
 pattern = re.compile(r"^text/|json$|yaml$|xml$|toml$|x-sh$|x-shellscript$")
 

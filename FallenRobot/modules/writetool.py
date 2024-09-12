@@ -2,8 +2,8 @@ import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext
 
-from FallenRobot import BOT_NAME, BOT_USERNAME, dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
+from GroupService import BOT_NAME, BOT_USERNAME, dispatcher
+from GroupService.modules.disable import DisableAbleCommandHandler
 
 
 def handwrite(update: Update, context: CallbackContext):

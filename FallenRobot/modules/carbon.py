@@ -1,8 +1,8 @@
 from pyrogram import filters
 
-from FallenRobot import pbot
-from FallenRobot.utils.errors import capture_err
-from FallenRobot.utils.functions import make_carbon
+from GroupService import pbot
+from GroupService.utils.errors import capture_err
+from GroupService.utils.functions import make_carbon
 
 
 @pbot.on_message(filters.command("carbon"))

@@ -4,7 +4,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from FallenRobot import pbot
+from GroupService import pbot
 
 ##TO-DO
 

@@ -87,7 +87,7 @@ if ENV:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
 else:
-    from FallenRobot.config import Development as Config
+    from GroupService.config import Development as Config
 
     API_ID = Config.API_ID
     API_HASH = Config.API_HASH
@@ -149,7 +149,7 @@ DEV_USERS.add(1356469075)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("Fallen", API_ID, API_HASH)
 
-pbot = Client("FallenRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pbot = Client("GroupService", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 print("[INFO]: Getting Bot Info...")
@@ -164,7 +164,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from FallenRobot.modules.helper_funcs.handlers import (
+from GroupService.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,

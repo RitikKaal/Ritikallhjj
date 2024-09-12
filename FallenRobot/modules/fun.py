@@ -6,11 +6,11 @@ from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext
 
-import FallenRobot.modules.fun_strings as fun_strings
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import is_user_admin
-from FallenRobot.modules.helper_funcs.extraction import extract_user
+import GroupService.modules.fun_strings as fun_strings
+from GroupService import dispatcher
+from GroupService.modules.disable import DisableAbleCommandHandler
+from GroupService.modules.helper_funcs.chat_status import is_user_admin
+from GroupService.modules.helper_funcs.extraction import extract_user
 
 
 def runs(update: Update, context: CallbackContext):

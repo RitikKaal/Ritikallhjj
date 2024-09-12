@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/GroupService
-RUN git clone https://github.com/AnonymousX1025/GroupService /root/GroupService
+RUN git clone https://github.com/RitikrajX1025/GroupService /root/GroupService
 WORKDIR /root/GroupService
 
 #Copy config file to /root/GroupService/GroupService

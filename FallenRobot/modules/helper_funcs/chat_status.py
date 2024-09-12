@@ -41,7 +41,7 @@ def is_user_admin(chat: Chat, user_id: int, member: ChatMember = None) -> bool:
         or user_id in DEV_USERS
         or chat.all_members_are_administrators
         or user_id in [777000, 1087968824]
-    ):  # Count telegram and Group Anonymous as admin
+    ):  # Count telegram and Group Ritikraj as admin
         return True
     if not member:
         with THREAD_LOCK:
@@ -84,7 +84,7 @@ def is_user_ban_protected(chat: Chat, user_id: int, member: ChatMember = None) -
         or user_id in TIGERS
         or chat.all_members_are_administrators
         or user_id in [777000, 1087968824]
-    ):  # Count telegram and Group Anonymous as admin
+    ):  # Count telegram and Group Ritikraj as admin
         return True
 
     if not member:

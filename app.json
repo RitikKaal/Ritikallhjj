@@ -9,7 +9,7 @@
          "manager",
          "Group"
       ],   
-   "repository": "https://github.com/AnonymousX1025/GroupService",
+   "repository": "https://github.com/RitikrajX1025/GroupService",
    "stack": "heroku-22",
    "addons": [
       {

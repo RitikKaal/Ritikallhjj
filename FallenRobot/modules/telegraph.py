@@ -7,11 +7,11 @@ from telegraph import Telegraph, exceptions, upload_file
 from GroupService import telethn as tbot
 from GroupService.events import register
 
-Anonymous = "Group"
+Ritikraj = "Group"
 
 TMP_DOWNLOAD_DIRECTORY = "./"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=Anonymous)
+r = telegraph.create_account(short_name=Ritikraj)
 auth_url = r["auth_url"]
 
 
